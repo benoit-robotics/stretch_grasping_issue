@@ -1,0 +1,47 @@
+<package format="3">
+
+  <name>stretch_grasping_issue</name>
+  <version>0.3.0</version>
+  <description>
+     stretch_grasping_issue
+  </description>
+  <author email="benoit@robots.ox.ac.uk">Benoit Casseau</author>
+  <maintainer email="benoit@robots.ox.ac.uk">Benoit Casseau</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>control_msgs</depend>
+  <depend>moveit_core</depend>
+  <depend>moveit_ros_perception</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>moveit_hybrid_planning</depend>
+  <depend>pluginlib</depend>
+  <depend>tf2_eigen</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>action_msgs</depend>
+
+  <build_depend>eigen</build_depend>
+  <build_depend>geometric_shapes</build_depend>
+  <build_depend>moveit_common</build_depend>
+  <build_depend>moveit_ros_planning</build_depend>
+
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>gripper_controllers</exec_depend>
+  <exec_depend>joint_state_broadcaster</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>joint_trajectory_controller</exec_depend>
+  <exec_depend>moveit</exec_depend>
+  <exec_depend>moveit_resources_panda_moveit_config</exec_depend>
+  <exec_depend>moveit_configs_utils</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>ros2_control</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>xacro</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
